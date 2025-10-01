@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.313rem;
+  background-color: #23424A;
+}
+
+.container {
+  max-width: 750px;
+  padding: 2em;
+  color: #fff;
+}
+
+.container h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.container p {
+  opacity: .75;
+  padding-bottom: 2.5em;
+}
+
+.container a {
+  background-color: #38CFD9;
+  padding: 1em 2.5em;
+  border-radius: 9999px;
+  color: #23424A;
+  font-weight: 700;
+  margin: 1em 0;
+  text-decoration: none;
+}
+
+.container a:hover,
+a:focus {
+  opacity: .75;
+}
